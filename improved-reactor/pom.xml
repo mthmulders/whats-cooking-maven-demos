@@ -15,5 +15,8 @@
     </properties>
 
     <modules>
+        <module>coffeeshop-api</module>
+        <module>coffeeshop-app</module>
+        <module>coffeeshop-impl</module>
     </modules>
 </project>
