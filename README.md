@@ -14,7 +14,7 @@ This project shows a couple of new use cases that the Reactor will support from 
 
 ## [Maven Daemon](https://github.com/mthmulders/whats-cooking-maven-demos/tree/main/maven-daemon)
 The Maven Daemon is an effort to speed up Maven builds using a long living background process (the _daemon_).
-This saves starting the Java Virtual Machine for every `mvn` invocation.
+This saves starting the Java Virtual Machine for every Maven invocation.
 It also allows for more Just-In-Time (JIT) compiler optimisations to happen.
 Finally, Maven Plugin definitions can be reused over multiple builds.
 
