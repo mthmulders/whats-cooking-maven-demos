@@ -10,4 +10,16 @@
 
     <artifactId>coffeeshop-app</artifactId>
     <name>Coffeeshop App</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>it.mulders.maven.demos</groupId>
+            <artifactId>coffeeshop-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>it.mulders.maven.demos</groupId>
+            <artifactId>coffeeshop-impl</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
