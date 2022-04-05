@@ -1,0 +1,10 @@
+@startuml project
+
+[Coffeeshop API] as api
+[Coffeeshop app] as app
+[Coffeeshop implementation] as impl
+
+app .right.> api : use
+impl -up-|> api : implements
+
+@enduml
