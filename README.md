@@ -18,6 +18,26 @@ This saves starting the Java Virtual Machine for every Maven invocation.
 It also allows for more Just-In-Time (JIT) compiler optimisations to happen.
 Finally, Maven Plugin definitions can be reused over multiple builds.
 
+## Test, Reproduce, Report
+As mentioned in the talk, you can help the community using these three simple steps:
+1. 🧪 test
+1. 🛠️ reproduce
+1. 📃 report
+
+You can manually build a snapshot of Maven from the source code, or use these utility packages:
+
+For macOS and Linux
+```bash
+brew install mthmulders/maven-snapshot/maven-snapshot
+```
+
+For Windows
+```cmd
+choco install maven-snapshot
+```
+
+Please note that these are unstable and unofficial packages, primary targeted at Maven developers or early-access testers.
+
 ## License
 These projects are released in the public domain under the terms of the MIT license.
 See the [LICENSE file](https://github.com/mthmulders/whats-cooking-maven-demos/blob/main/LICENSE) for details.
