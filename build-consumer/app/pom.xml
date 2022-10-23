@@ -8,7 +8,15 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>child</artifactId>
-    <name>Child project</name>
+    <artifactId>app</artifactId>
+    <name>Application project</name>
     <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>it.mulders.maven.demos</groupId>
+            <artifactId>lib</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -16,7 +16,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>child</module>
+        <module>lib</module>
+        <module>app</module>
     </modules>
 
     <build>
